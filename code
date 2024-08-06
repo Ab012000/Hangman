@@ -1,0 +1,39 @@
+print("D_ _ I _ = cause the water or other liquid in (something) to run out, leaving it empty or dry")
+#drain
+list1 = ["D","I"]
+space1 = str(input("1st missing letter is :"))
+if(space1 == 'R'):
+        print("correct")
+else:
+        print("incorrect")
+space2 = str(input("2nd missing letter is :"))
+if(space2 == 'A'):
+        print("correct")
+else:
+        print("incorrect")
+space3 = str(input("3rd missing letter is :"))
+if(space3 == 'N'):
+        print("correct")
+else:
+        print("incorrect")
+list1.insert(1,space1)
+list1.insert(2,space2)
+list1.insert(5,space3)
+print(list1)
+print("R _ _ N = Purest form of water provided by nature and is part of water cycle")
+#Rain
+list2 = ["R","N"]
+spacei = str(input("1st missing letter :"))
+if(spacei == 'A'):
+        print("correct")
+else:
+        print("incorrect")
+spaceii = str(input("2nd missing letter :"))
+if(spaceii == 'I'):
+        print("correct")
+else:
+        print("incorrect")
+list2.insert(1,spacei)
+list2.insert(2,spaceii)
+print(list2)
+
